@@ -1,0 +1,29 @@
+.LoginWidgetContainer {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-size: 24px;
+    flex-wrap: nowrap;
+}
+
+.LoginWidgetSubContainer {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.LoginWidgetButton {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.LoginWidgetDisplayName{
+    padding-right: 10px;
+}

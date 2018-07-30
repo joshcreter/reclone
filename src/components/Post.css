@@ -1,0 +1,18 @@
+.postContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.postBody {
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none!important;
+    color: #30404D!important;
+}
+
+.postBody:hover {
+    color: #137CBD!important;
+
+}

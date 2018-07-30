@@ -1,0 +1,27 @@
+/*body {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-family: sans-serif;*/
+    /*color: #30404D;*/
+        /*height: 100%;*/
+
+    /*overflow: hidden;  !*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*!*/
+    /*display: flex;  !*enables flex content for its children*!*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+body {
+      display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/*html {*/
+        /*height: 100%;*/
+/*}*/
+#root {
+    /*flex: 1;*/
+    /*display: flex;*/
+        /*height: 100%;*/
+}
+

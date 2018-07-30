@@ -1,0 +1,25 @@
+.postDetailTitle {
+    font-weight: bold;
+}
+
+.postDetailTopComment {
+    margin-top: 10px;
+    flex: auto;
+}
+
+.postDetailContainer {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+        flex: 1;
+}
+
+.postDetailBackButtonContainer {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.postDetailBackButtonContainer > a {
+    text-decoration: none!important;
+}

@@ -1,0 +1,8 @@
+.postListingContainer {
+    display: flex;
+    flex-direction: column;
+
+    /*Compensate for margins built into buttons */
+    margin-left: -20px;
+    margin-top: -5px;
+}

@@ -1,0 +1,22 @@
+.voterContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.votedUp > svg {
+        fill: #15B371!important;
+    }
+
+.votedDown > svg {
+        fill: #F55656!important;;
+    }
+.unsetVote > svg {
+        fill: #8A9BA8!important;;
+    }
+.disabledVote > svg {
+        fill: #D8E1E8!important;;
+    }
+
+.voterContainer::selection > * {
+  background:rgba(125, 188, 255, 0.0)!important; }
